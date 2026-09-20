@@ -1,0 +1,426 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Sortment Docs",
+  "colors": {
+    "primary": "#0195FF",
+    "light": "#0195FF",
+    "dark": "#0195FF"
+  },
+  "favicon": "/favicon.png",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": [
+          "index",
+          "getting-started/core-concepts",
+          "getting-started/contact-us"
+        ]
+      },
+      {
+        "group": "Using Sortment AI",
+        "pages": [
+          "using-sortment-ai/intelligence-blocks",
+          "using-sortment-ai/kpis",
+          "using-sortment-ai/tasks",
+          "using-sortment-ai/data-analysis"
+        ]
+      },
+      {
+        "group": "Schema",
+        "pages": [
+          "schema/overview",
+          "schema/related-and-events-table",
+          "schema/setting-up-related-table",
+          "schema/setting-up-events-table-1"
+        ]
+      },
+      {
+        "group": "ENGAGE",
+        "pages": [
+          {
+            "group": "Audiences",
+            "pages": [
+              "engage/audiences",
+              "engage/audiences/create-audience-with-ai",
+              "engage/audiences/creating-audience",
+              "engage/audiences/audience-filters",
+              "engage/audiences/campaign-event-filters",
+              "engage/audiences/creating-audience-using-sql-builder",
+              "engage/audiences/managing-audiences",
+              "engage/audiences/audience-insights"
+            ]
+          },
+          {
+            "group": "Attributes",
+            "pages": [
+              "engage/attributes",
+              "engage/attributes/use-cases",
+              {
+                "group": "Calculated Attributes",
+                "pages": [
+                  "engage/attributes/calculated-attributes",
+                  "engage/attributes/calculated-attributes/advanced-mode"
+                ]
+              },
+              "engage/attributes/dynamic-attributes"
+            ]
+          },
+          {
+            "group": "Profiles",
+            "pages": [
+              "engage/profiles",
+              "engage/profiles/user-profile-view"
+            ]
+          },
+          {
+            "group": "Campaigns",
+            "pages": [
+              "engage/campaigns",
+              "engage/campaigns/overview",
+              "engage/campaigns/building-a-campaign",
+              {
+                "group": "Campaign Reports",
+                "pages": [
+                  "engage/campaigns/campaign-reports",
+                  "engage/campaigns/campaign-reports/glossary"
+                ]
+              },
+              {
+                "group": "Templates",
+                "pages": [
+                  "engage/campaigns/templates/handlebars"
+                ]
+              },
+              "engage/campaigns/conversion-tracking"
+            ]
+          },
+          {
+            "group": "Journeys",
+            "pages": [
+              "journeys",
+              "journeys/getting-started",
+              "journeys/journey-builder",
+              {
+                "group": "Journey Components",
+                "pages": [
+                  "journeys/journey-components",
+                  "journeys/journey-components/trigger",
+                  "journeys/journey-components/delays",
+                  "journeys/journey-components/flow-control",
+                  "journeys/journey-components/action-blocks"
+                ]
+              },
+              "journeys/tutorial-creating-a-journey",
+              "journeys/journey-settings"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "SMS",
+        "pages": [
+          "sms/page-1",
+          "sms/exotel",
+          "sms/infobip",
+          "sms/infronics",
+          "sms/jiocx",
+          "sms/kaleyra-global",
+          "sms/kaleyra.io",
+          "sms/karix",
+          "sms/ozonetel",
+          "sms/onextel",
+          "sms/messagebird",
+          "sms/msg91",
+          "sms/mtalkz",
+          "sms/netcore",
+          "sms/plivo",
+          "sms/route-mobile",
+          "sms/sinch",
+          "sms/smartping",
+          "sms/syniverse",
+          "sms/telspiel",
+          "sms/trustsignal",
+          "sms/twilio",
+          "sms/valuefirst"
+        ]
+      },
+      {
+        "group": "RCS",
+        "pages": [
+          "rcs/gupshup-enterprise",
+          "rcs/msg91",
+          "rcs/sinch",
+          "rcs/valuefirst",
+          "rcs/wisely"
+        ]
+      },
+      {
+        "group": "Whatsapp",
+        "pages": [
+          {
+            "group": "Meta",
+            "pages": [
+              "whatsapp/meta",
+              "whatsapp/meta/meta-by-facebook",
+              "whatsapp/meta/meta-direct-plus",
+              "whatsapp/meta/meta-direct"
+            ]
+          },
+          "whatsapp/messagebird",
+          "whatsapp/karix",
+          "whatsapp/kaleyra",
+          "whatsapp/interakt",
+          "whatsapp/infobip",
+          "whatsapp/gupshup",
+          "whatsapp/gupshup-enterprise",
+          "whatsapp/gallabox",
+          "whatsapp/freshchat",
+          "whatsapp/connectly",
+          "whatsapp/aisensy"
+        ]
+      },
+      {
+        "group": "Email",
+        "pages": [
+          "email/gmail",
+          "email/mailgun",
+          "email/mailchimp-mandrill",
+          "email/karix",
+          "email/mailmodo",
+          "email/netcore-email",
+          "email/outlook",
+          "email/postmark",
+          "email/sendgrid",
+          "email/ses-amazon-simple-email-service",
+          "email/smtp",
+          "email/sparkpost",
+          "email/valuefirst-email"
+        ]
+      },
+      {
+        "group": "Push integration",
+        "pages": [
+          "push-integration/google-fcm",
+          {
+            "group": "APNs (Apple Push Notification services)",
+            "pages": [
+              "push-integration/apns-apple-push-notification-services",
+              "push-integration/apns-apple-push-notification-services/delivery-callbacks-ios-native"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Connectors",
+        "pages": [
+          "connectors/slack-integration",
+          {
+            "group": "Getting started",
+            "pages": [
+              "connectors/getting-started-1",
+              "connectors/getting-started-1/github",
+              "connectors/getting-started-1/linear",
+              "connectors/getting-started-1/jira",
+              "connectors/getting-started-1/airtable",
+              "connectors/getting-started-1/pipedrive",
+              "connectors/getting-started-1/zendesk",
+              "connectors/getting-started-1/stripe",
+              "connectors/getting-started-1/appsflyer",
+              "connectors/getting-started-1/webengage",
+              "connectors/getting-started-1/customer.io",
+              "connectors/getting-started-1/mailchimp-integration",
+              "connectors/getting-started-1/shopify-integration",
+              "connectors/getting-started-1/google-analytics",
+              "connectors/getting-started-1/google-ads",
+              "connectors/getting-started-1/meta-ads",
+              "connectors/getting-started-1/iterable",
+              "connectors/getting-started-1/klaviyo",
+              "connectors/getting-started-1/moengage",
+              "connectors/getting-started-1/marketo",
+              "connectors/getting-started-1/salesforce-marketing-cloud",
+              "connectors/getting-started-1/responsys",
+              "connectors/getting-started-1/braze",
+              "connectors/getting-started-1/hubspot"
+            ]
+          },
+          "connectors/enable-data-sync"
+        ]
+      },
+      {
+        "group": "Setup",
+        "pages": [
+          {
+            "group": "Data Warehouses",
+            "pages": [
+              "setup/data-warehouses",
+              {
+                "group": "Athena",
+                "pages": [
+                  "setup/data-warehouses/athena"
+                ]
+              },
+              "setup/data-warehouses/snowflake",
+              "setup/data-warehouses/bigquery",
+              "setup/data-warehouses/redshift",
+              "setup/data-warehouses/databricks",
+              "setup/data-warehouses/postgresql"
+            ]
+          },
+          {
+            "group": "Cloud Bucket Storage",
+            "pages": [
+              "setup/cloud-bucket-storage",
+              "setup/cloud-bucket-storage/amazon-s3-for-athena",
+              "setup/cloud-bucket-storage/amazon-s3-for-snowflake",
+              "setup/cloud-bucket-storage/azure-blob-storage-for-snowflake",
+              "setup/cloud-bucket-storage/google-cloud-storage-for-bigquery",
+              "setup/cloud-bucket-storage/amazon-s3-for-redshift",
+              "setup/cloud-bucket-storage/amazon-s3-for-databricks"
+            ]
+          },
+          {
+            "group": "Communication Channels",
+            "pages": [
+              "setup/communication-channels",
+              {
+                "group": "Email",
+                "pages": [
+                  "setup/communication-channels/email",
+                  "setup/communication-channels/email/sendgrid",
+                  "setup/communication-channels/email/ses",
+                  "setup/communication-channels/email/mailmodo"
+                ]
+              },
+              {
+                "group": "SMS",
+                "pages": [
+                  "setup/communication-channels/sms",
+                  "setup/communication-channels/sms/msg91",
+                  "setup/communication-channels/sms/gupshup"
+                ]
+              },
+              {
+                "group": "WhatsApp",
+                "pages": [
+                  "setup/communication-channels/whatsapp",
+                  {
+                    "group": "Meta (Facebook)",
+                    "pages": [
+                      "setup/communication-channels/whatsapp/meta-facebook",
+                      "setup/communication-channels/whatsapp/meta-facebook/add-new-phone-number-to-meta"
+                    ]
+                  },
+                  "setup/communication-channels/whatsapp/gupshup-enterprise",
+                  "setup/communication-channels/whatsapp/wati",
+                  "setup/communication-channels/whatsapp/gallabox",
+                  "setup/communication-channels/whatsapp/yellow.ai",
+                  "setup/communication-channels/whatsapp/kaleyra.io"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Real-time Events",
+            "pages": [
+              "setup/real-time-events",
+              "setup/real-time-events/setting-up-event-source",
+              "setup/real-time-events/whitelist-event-payload"
+            ]
+          },
+          "setup/sso-login-via-okta",
+          "setup/query-logs-access-configuration",
+          {
+            "group": "Settings",
+            "pages": [
+              "settings",
+              "settings/workspace-timezone",
+              "settings/sync-schedules",
+              "settings/audit-logs",
+              "settings/subscription-groups-and-contact-fields",
+              "settings/delivery-controls",
+              "settings/test-profiles",
+              "settings/alerts"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "How to guides",
+        "pages": [
+          "how-to-guides/email-templates-with-sortment-ai",
+          "how-to-guides/bulk-unsubscribe",
+          "how-to-guides/invite-team-members",
+          "how-to-guides/switch-workspaces",
+          "how-to-guides/upload-and-edit-data-with-ai"
+        ]
+      },
+      {
+        "group": "FAQ",
+        "pages": [
+          "faq",
+          "faq/push-delivery-oem-devices",
+          "faq/ab-testing-in-campaigns"
+        ]
+      },
+      {
+        "group": "Data and Security",
+        "pages": [
+          "data-and-security/technical-overview",
+          "data-and-security/warehouse-data-practices",
+          "data-and-security/data-access-and-usage",
+          "data-and-security/security-compliance",
+          "data-and-security/audit-logs",
+          "data-and-security/privacy-policy"
+        ]
+      },
+      {
+        "group": "Onboarding",
+        "pages": [
+          "onboarding",
+          "onboarding/hubspot-data-warehouse-reference"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact",
+        "href": "mailto:support@sortment.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Sign up",
+      "href": "https://app.sortment.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://sortment.com"
+    }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "redirects": [
+    {
+      "source": "/README",
+      "destination": "/"
+    },
+    {
+      "source": "/faq/faq",
+      "destination": "/faq"
+    },
+    {
+      "source": "/onboarding/onboarding",
+      "destination": "/onboarding"
+    }
+  ]
+}
